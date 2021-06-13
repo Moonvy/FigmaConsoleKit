@@ -1,5 +1,7 @@
 # FigmaConsoleKit 
 
+![](shot.gif)
+
 In Figma's browser console, Add a debugging-friendly API
 
 

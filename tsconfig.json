@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "strict": true,
+        "lib": ["es2017", "dom"],
+        "outDir": "dist",
+        "typeRoots": [
+            "../../node_modules/@figma",
+            "../../node_modules/@types",
+        ]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}

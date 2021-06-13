@@ -1,0 +1,17 @@
+{
+    "name": "FigmaConsoleKit",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "node ./esbuild.js"
+    },
+    "main": "./dist/FigmaConsoleKit.js",
+    "module": "./src/index.js",
+    "author": "yArna@me.moonvy.com",
+    "license": "MIT",
+    "devDependencies": {
+        "@figma/plugin-typings": "^1.19.2"
+    },
+    "dependencies": {
+        "esbuild": "^0.12.8"
+    }
+}

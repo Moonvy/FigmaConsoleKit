@@ -7,9 +7,7 @@ In Figma's browser console, Add a debugging-friendly API
 paste code into figma console
 
 ```js
-fetch("https://raw.githubusercontent.com/Moonvy/FigmaConsoleKit/master/dist/FigmaConsoleKit.js?v1.0.0").then((r) =>
-    r.text().then((c) => eval(c))
-)
+fetch("https://raw.githubusercontent.com/Moonvy/FigmaConsoleKit/master/dist/FigmaConsoleKit.js?v1.0.0").then((r) =>r.text().then((c) => eval(c)))
 ```
 
 or

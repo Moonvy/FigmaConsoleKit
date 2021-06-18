@@ -12,6 +12,9 @@
         "@figma/plugin-typings": "^1.19.2"
     },
     "dependencies": {
-        "esbuild": "^0.12.8"
+        "axios": "^0.21.1",
+        "esbuild": "^0.12.8",
+        "loadsh": "^0.0.4",
+        "mathjs": "^9.4.2"
     }
 }

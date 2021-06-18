@@ -31,8 +31,8 @@ paste [the code](dist/FigmaConsoleKit.js) into console
 
 ### Utils
 
--   [`axios`](): best JavaScript HTTP client.
--   [`lodash`](): a modern JavaScript utility library delivering modularity, performance & extras.
+-   [`axios`](https://github.com/axios/axios): best JavaScript HTTP client.
+-   [`lodash`](https://github.com/lodash/lodash): a modern JavaScript utility library delivering modularity, performance & extras.
 -   [`mathjs`](https://mathjs.org/): an extensive math library.
 
 

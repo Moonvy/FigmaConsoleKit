@@ -12,6 +12,10 @@ export async function loadNodeFonts(node) {
 
 /** 设置节点文本 */
 export async function setNodeText(node, text) {
-  await loadNodeFonts(node);
-  node.characters = text;
+  try {
+    node.characters = text;
+  } catch (e) {
+    await loadNodeFonts(node);
+    node.characters = text;
+  }
 }

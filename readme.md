@@ -10,7 +10,7 @@ paste code into figma console
 
 ```js
 fetch(
-  "https://raw.githubusercontent.com/Moonvy/FigmaConsoleKit/master/dist/FigmaConsoleKit.js?v1.1.0"
+  "https://raw.githubusercontent.com/Moonvy/FigmaConsoleKit/master/dist/FigmaConsoleKit.js?v1.2.0"
 ).then((r) => r.text().then((c) => eval(c)));
 ```
 

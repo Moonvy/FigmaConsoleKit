@@ -1,7 +1,6 @@
 # FigmaConsoleKit
 
-Browser Devtool console is Figma's best scripting tool, FigmaConsoleKit can make it better,  add a debugging-friendly API, most commonly used libraries(`axios`,`lodash`,`mathjs` ).
-
+Browser Devtool console is Figma's best scripting tool, FigmaConsoleKit can make it better, add a debugging-friendly API, most commonly used libraries(`axios`,`lodash`,`mathjs`,`Color`,`font-color-contrast`).
 
 <img width="486px" src="https://user-images.githubusercontent.com/82231420/122532535-31205e80-d053-11eb-8d2c-af5bb0c8d028.gif"/>
 

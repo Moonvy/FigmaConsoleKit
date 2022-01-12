@@ -18,6 +18,14 @@ or
 
 paste [the code](dist/FigmaConsoleKit.js) into console
 
+
+### 中国国内镜像
+```
+fetch(
+  "https://download.fastgit.org/Moonvy/FigmaConsoleKit/releases/download/v1.1.0/FigmaConsoleKit.js"
+).then((r) => r.text().then((c) => eval(c)));
+```
+
 ### Access
 
 - 🔥 `activeNodes` currently selected layers (multiple)

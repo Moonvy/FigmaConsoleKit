@@ -1,6 +1,9 @@
 # FigmaConsoleKit
 
-In Figma's browser console, Add a debugging-friendly API
+Browser Devtool console is Figma's best scripting tool, FigmaConsoleKit can make it better,  add a debugging-friendly API, most commonly used libraries(`axios`,`lodash`,`mathjs` ).
+
+
+<img width="486px" src="https://user-images.githubusercontent.com/82231420/122532535-31205e80-d053-11eb-8d2c-af5bb0c8d028.gif"/>
 
 ## Usege
 
@@ -46,7 +49,7 @@ paste [the code](dist/FigmaConsoleKit.js) into console
 
 ### Utils
 
-- [`axios`](https://www.npmjs.com/package/axios): best JavaScript HTTP client.
+- [`axios`](https://github.com/axios/axios): best JavaScript HTTP client.
 - [`font-color-contrast`](https://github.com/russoedu/font-color-contrast#readme): use black or white font according to the given background color.
 - [`lodash`](https://github.com/lodash/lodash): a modern JavaScript utility library delivering modularity, performance & extras.
 - [`mathjs`](https://mathjs.org/): an extensive math library.

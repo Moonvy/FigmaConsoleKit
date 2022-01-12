@@ -1,20 +1,22 @@
 {
-    "name": "FigmaConsoleKit",
-    "version": "1.0.0",
-    "scripts": {
-        "build": "node ./esbuild.js"
-    },
-    "main": "./dist/FigmaConsoleKit.js",
-    "module": "./src/index.js",
-    "author": "yArna@me.moonvy.com",
-    "license": "MIT",
-    "devDependencies": {
-        "@figma/plugin-typings": "^1.19.2"
-    },
-    "dependencies": {
-        "axios": "^0.21.1",
-        "esbuild": "^0.12.8",
-        "loadsh": "^0.0.4",
-        "mathjs": "^9.4.2"
-    }
+  "name": "FigmaConsoleKit",
+  "version": "1.1.0",
+  "scripts": {
+    "build": "node ./esbuild.js"
+  },
+  "main": "./dist/FigmaConsoleKit.js",
+  "module": "./src/index.js",
+  "author": "yArna@me.moonvy.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.19.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "color": "^4.2.0",
+    "esbuild": "^0.12.8",
+    "font-color-contrast": "^10.1.0",
+    "loadsh": "^0.0.4",
+    "mathjs": "^9.4.2"
+  }
 }

@@ -17,6 +17,7 @@ fetch(
 or
 
 paste [the code](dist/FigmaConsoleKit.js) into console
+ 
 
 ### Access
 

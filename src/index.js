@@ -5,11 +5,18 @@ import {
   setActiveNodes,
 } from "./lib/active";
 import { toFloatColor, toIntColor } from "./lib/color";
-import { getChildrenByName, getClidByName } from "./lib/get";
+import {
+  getChildrenByName,
+  getClidByName,
+  getNodesByName,
+  getNodes,
+  getNodesByType,
+  getNodesByTypeName,
+} from "./lib/get";
 import { tidyX } from "./lib/tidy";
 import { show, json } from "./lib/json";
 import { loadNodeFonts, setNodeText } from "./lib/text";
-
+import { download } from "./lib/export";
 
 import lodash from "loadsh";
 import axios from "axios";
@@ -34,8 +41,13 @@ let fkit = {
   setNodeText,
   getChildrenByName,
   getClidByName,
+  getNodesByName,
+  getNodes,
+  getNodesByType,
+  getNodesByTypeName,
   toFloatColor,
   toIntColor,
+  download,
   tidyX,
   show,
   json,

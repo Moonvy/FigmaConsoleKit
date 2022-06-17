@@ -10,14 +10,13 @@ paste code into figma console
 
 ```js
 fetch(
-  "https://raw.githubusercontent.com/Moonvy/FigmaConsoleKit/master/dist/FigmaConsoleKit.js?v1.1.0"
+  "https://raw.githubusercontent.com/Moonvy/FigmaConsoleKit/master/dist/FigmaConsoleKit.js?v1.5.0"
 ).then((r) => r.text().then((c) => eval(c)));
 ```
 
 or
 
 paste [the code](dist/FigmaConsoleKit.js) into console
- 
 
 ### Access
 
@@ -25,18 +24,22 @@ paste [the code](dist/FigmaConsoleKit.js) into console
 - 🔥 `activeNode` currently selected layer (only one is fetched)
 - `getChildrenByName(node)` get multiple sublayers by layer name
 - `getClidByName(node)` get a sublayer by layer name
+- `getNodes(node, eachFunc)` get nodes from all children by eachFunc.
+- `getNodesByName(node, name)` get nodes with the specified name from all children
+- `getNodesByType(node, type)` get nodes with the specified type from all children
+- `getNodesByTypeName(node, type, name)` get nodes with the specified type and name from all children
 
 ![](./shot/shot.gif)
 
 ### Print
 
-- `show(node)`  Show layer information
+- `show(node)` Show layer information
 - `json(node)` converts the layer information into a JSON string
 
 ### Color
 
-- `toFloatColor(intColor)`  [255,255,255] => {r:1.0, g:1.0, b:1.0}
-- `toIntColor(floatColor)`  {r:1.0, g:1.0, b:1.0} => [255,255,255]
+- `toFloatColor(intColor)` [255,255,255] => {r:1.0, g:1.0, b:1.0}
+- `toIntColor(floatColor)` {r:1.0, g:1.0, b:1.0} => [255,255,255]
 
 ### Text
 
@@ -45,7 +48,11 @@ paste [the code](dist/FigmaConsoleKit.js) into console
 
 ### Tidy
 
-- `tidyX(nodes, cols, gap)`  rearrange layers by number of columns
+- `tidyX(nodes, cols, gap)` rearrange layers by number of columns
+
+### Export
+
+- `download([{name, data}])` download multiple Unit8Array as zip file ([client-zip](https://www.npmjs.com/package/client-zip)).
 
 ### Utils
 

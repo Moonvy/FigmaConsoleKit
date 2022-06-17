@@ -23,6 +23,7 @@ import axios from "axios";
 import fontColorContrast from "font-color-contrast";
 import Color from "color";
 import * as mathjs from "mathjs";
+import { downloadZip } from "client-zip";
 
 console.log(
   `%c[FimgaConsoleKit] v${VERSION} Landed!`,
@@ -48,6 +49,7 @@ let fkit = {
   toFloatColor,
   toIntColor,
   download,
+  downloadZip,
   tidyX,
   show,
   json,

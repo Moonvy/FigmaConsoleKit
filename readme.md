@@ -16,7 +16,8 @@ fetch(
 
 or
 
-- create a browser bookmark and add the code as address 
+- create a browser bookmark and add the code as address
+
 ```js
 javascript:(function()%7Bfetch(%22https%3A%2F%2Fraw.githubusercontent.com%2FMoonvy%2FFigmaConsoleKit%2Fmaster%2Fdist%2FFigmaConsoleKit.js%3Fv1.5.0%22).then((r)%20%3D%3E%20r.text().then((c)%20%3D%3E%20eval(c)))%7D)()
 ```
@@ -24,7 +25,6 @@ javascript:(function()%7Bfetch(%22https%3A%2F%2Fraw.githubusercontent.com%2FMoon
 or
 
 - paste [the code](dist/FigmaConsoleKit.js) into console
-
 
 ### Access
 
@@ -60,7 +60,8 @@ or
 
 ### Export
 
-- `download([{name, data}])` download multiple Unit8Array as zip file ([client-zip](https://www.npmjs.com/package/client-zip)).
+- `download([{name, input}])` download multiple Unit8Array as zip file ([client-zip](https://www.npmjs.com/package/client-zip)).
+- `downloadZip()` ([client-zip](https://www.npmjs.com/package/client-zip)).
 
 ### Utils
 
@@ -68,4 +69,5 @@ or
 - [`font-color-contrast`](https://github.com/russoedu/font-color-contrast#readme) use black or white font according to the given background color.
 - [`lodash`](https://github.com/lodash/lodash) a modern JavaScript utility library delivering modularity, performance & extras.
 - [`mathjs`](https://mathjs.org/) an extensive math library.
+- [`client-zip`](https://www.npmjs.com/package/client-zip) download all the files in one click.
 - [`Color`](https://github.com/Qix-/color#readme) immutable color conversion and manipulation with support for CSS color strings.

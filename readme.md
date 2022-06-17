@@ -6,7 +6,7 @@ Browser Devtool console is Figma's best scripting tool, FigmaConsoleKit can make
 
 ## Usege
 
-paste code into figma console
+- paste code into figma console
 
 ```js
 fetch(
@@ -16,7 +16,15 @@ fetch(
 
 or
 
-paste [the code](dist/FigmaConsoleKit.js) into console
+- create a browser bookmark and add the code as address 
+```js
+javascript:(function()%7Bfetch(%22https%3A%2F%2Fraw.githubusercontent.com%2FMoonvy%2FFigmaConsoleKit%2Fmaster%2Fdist%2FFigmaConsoleKit.js%3Fv1.5.0%22).then((r)%20%3D%3E%20r.text().then((c)%20%3D%3E%20eval(c)))%7D)()
+```
+
+or
+
+- paste [the code](dist/FigmaConsoleKit.js) into console
+
 
 ### Access
 
